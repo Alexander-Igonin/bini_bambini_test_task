@@ -1,0 +1,77 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"player": {
+		"type": "fromPhysicsEditor",
+		"label": "player",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 17.4468085106383,
+					"y": 21.914893617021274,
+					"radius": 16.61755250192905
+				}
+			}
+		]
+	},
+	"right_triangle": {
+		"type": "fromPhysicsEditor",
+		"label": "right_triangle",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":56, "y":0 }, { "x":3, "y":52 }, { "x":56, "y":52 } ]
+				]
+			}
+		]
+	},
+	"left_triangle": {
+		"type": "fromPhysicsEditor",
+		"label": "left_triangle",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":0, "y":0 }, { "x":0, "y":54 }, { "x":55, "y":54 } ]
+				]
+			}
+		]
+	}
+}
