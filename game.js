@@ -7,7 +7,7 @@ var config = {
         default: 'matter',
         matter:{
             gravity: { y: 1.3 },
-            debug: true,
+            debug: false,
         }
     }
 
